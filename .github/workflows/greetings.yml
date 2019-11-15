@@ -10,6 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/first-interaction@v1
-      with:
-	      pr-message: 'Message that will be displayed when a user sets up pull request into master' Greetings, thanks $GITHUB_ACTOR for the pull request :)
+        with:
+	        pr-message: 'Message that will be displayed when a user sets up pull request into master' Greetings, thanks $GITHUB_ACTOR for the pull request :)
 
