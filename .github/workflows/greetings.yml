@@ -1,9 +1,9 @@
 name: Greetings
 
 on:
-  push:
+  pull_request:
     branches:
-      - master
+    - master
 
 jobs:
   greeting:
@@ -11,5 +11,5 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        pr-message: 'Greetings, thanks $GITHUB_ACTOR for the pull request :)'
-	issue-message: 'Greetings, thanks $GITHUB_ACTOR for raising an issue :)'  
+	pr-message: 'Message that will be displayed when a user sets up pull request into master' Greetings, thanks $GITHUB_ACTOR for the pull request :)
+
