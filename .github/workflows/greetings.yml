@@ -11,4 +11,4 @@ jobs:
     steps:
     - uses: actions/first-interaction@v1
       with:
-        push-mesage: 'Greetings, thanks $GITHUB_ACTOR for the commit :)'  
+        push-message: 'Greetings, thanks $GITHUB_ACTOR for the commit :)'  
